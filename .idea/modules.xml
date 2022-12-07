@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/0. Maths (Operators)/0. Maths (Operators).iml" filepath="$PROJECT_DIR$/0. Maths (Operators)/0. Maths (Operators).iml" />
+      <module fileurl="file://$PROJECT_DIR$/00. Maths (Operators)/00. Maths (Operators).iml" filepath="$PROJECT_DIR$/00. Maths (Operators)/00. Maths (Operators).iml" />
+      <module fileurl="file://$PROJECT_DIR$/03. Arrays/03. Arrays.iml" filepath="$PROJECT_DIR$/03. Arrays/03. Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. Sorting Algorithms/04. Sorting Algorithms.iml" filepath="$PROJECT_DIR$/04. Sorting Algorithms/04. Sorting Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05. Searching Algorithms/05. Searching Algorithms.iml" filepath="$PROJECT_DIR$/05. Searching Algorithms/05. Searching Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06. Recursion/06. Recursion.iml" filepath="$PROJECT_DIR$/06. Recursion/06. Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07. OOPS-Complete/07. OOPS-Complete.iml" filepath="$PROJECT_DIR$/07. OOPS-Complete/07. OOPS-Complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08. LinkedList/08. LinkedList.iml" filepath="$PROJECT_DIR$/08. LinkedList/08. LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09. Stacks/09. Stacks.iml" filepath="$PROJECT_DIR$/09. Stacks/09. Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/14. HashMap/14. HashMap.iml" filepath="$PROJECT_DIR$/14. HashMap/14. HashMap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/3. Arrays/3. Arrays.iml" filepath="$PROJECT_DIR$/3. Arrays/3. Arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/4. Sorting Algorithms/4. Sorting Algorithms.iml" filepath="$PROJECT_DIR$/4. Sorting Algorithms/4. Sorting Algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/5. Searching Algorithms/5. Searching Algorithms.iml" filepath="$PROJECT_DIR$/5. Searching Algorithms/5. Searching Algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/6. Recursion/6. Recursion.iml" filepath="$PROJECT_DIR$/6. Recursion/6. Recursion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/7. OOPS-Complete/7. OOPS-Complete.iml" filepath="$PROJECT_DIR$/7. OOPS-Complete/7. OOPS-Complete.iml" />
-      <module fileurl="file://$PROJECT_DIR$/8. LinkedList/8. LinkedList.iml" filepath="$PROJECT_DIR$/8. LinkedList/8. LinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/9. Stacks/9. Stacks.iml" filepath="$PROJECT_DIR$/9. Stacks/9. Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My DSA Journey (All Codes-Topic Wise).iml" filepath="$PROJECT_DIR$/.idea/My DSA Journey (All Codes-Topic Wise).iml" />
     </modules>
   </component>
