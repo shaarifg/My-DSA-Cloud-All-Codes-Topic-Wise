@@ -8,5 +8,6 @@ public class NumberOfDigitsInGivenBase {
         int a = (int)(Math.log10(num))+1;
         System.out.println(ans);
         System.out.println(a);
+        System.out.println(123%10);
     }
 }
