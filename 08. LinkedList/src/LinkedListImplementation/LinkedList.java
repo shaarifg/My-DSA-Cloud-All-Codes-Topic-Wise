@@ -6,13 +6,13 @@ public class LinkedList<T> {
     private Node<T> head;
     private int size;
 
-//    Insert Method
+//    Insert Method, at the last
        public void add(T data){
          Node<T> newNode  = new Node<>(data);
          if(head == null){
              head = newNode;
          }else {
-//             We can Optimize it by maintaining a tail node
+//     We can Optimize it by maintaining a tail node
          Node<T> temp  = head;
              while (temp.next != null){
                  temp = temp.next;
@@ -30,9 +30,8 @@ public class LinkedList<T> {
              Node<T> newNode = new Node<>(data);
              head = newNode;
              head.next = prev;
-             size++;
          }else {
-//             Following use Make Before Break concept.
+//             Following uses Make Before Break concept.
             while (count < idx-1){
                 count++;
                 prev = prev.next;
@@ -40,16 +39,16 @@ public class LinkedList<T> {
             Node<T> newNode = new Node<>(data);
             newNode.next = prev.next;
             prev.next = newNode;
-            size++;
          }
+        size++;
 
     }
 
 //    Method to Delete Node at given position
     void delete(int idx){
            Node<T> prev = head;
-           int count =0;
-           if (head ==null){
+           int count = 0;
+           if (head == null){
                System.out.println("List is Empty");
            }
            else if(idx == 0 && head != null ){
@@ -64,6 +63,15 @@ public class LinkedList<T> {
               size--;
            }
     }
+
+    // to delete first elem
+    public void deleteFirst(){
+           if(head==null) System.out.println("List is empty");
+           head = head.next;
+           size--;
+    }
+
+
 
 
 //    Method to print the LL
