@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package Implementation;
 /*Class which is using LinkedList methods*/
 public class LinkedListUse {
 

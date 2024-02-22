@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package Implementation;
 /*
 1.Linked List is a part of the Collection framework present in java.util package.
 2.which is a linear data structure where the elements are not stored in contiguous locations and

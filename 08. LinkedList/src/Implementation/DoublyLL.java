@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package Implementation;
 
 public class DoublyLL {
     private Node head;

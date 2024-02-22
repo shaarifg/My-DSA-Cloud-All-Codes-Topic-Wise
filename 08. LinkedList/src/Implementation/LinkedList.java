@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package Implementation;
 
 
 /* All methods of LinkedList are Implemented in this class only*/

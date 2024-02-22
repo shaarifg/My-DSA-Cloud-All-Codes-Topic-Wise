@@ -1,7 +1,7 @@
 package questions;
 
-import LinkedListImplementation.LinkedList;
-import LinkedListImplementation.Node;
+import Implementation.LinkedList;
+import Implementation.Node;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {
