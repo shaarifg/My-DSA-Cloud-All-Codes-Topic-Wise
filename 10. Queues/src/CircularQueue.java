@@ -39,11 +39,13 @@ public class CircularQueue {
         return removed;
     }
 
-    public  void display(){
-        for (int i = front; i < end; i++) {
-
-        }
-    }
+//    public  void display(){
+//
+//        do{
+//            System.out.print(data[front]);
+//
+//        }
+//    }
 
     private boolean isEmpty() {
         return size == 0;
