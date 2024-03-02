@@ -101,7 +101,7 @@ public class AVL {
     //    calculation of height of the tree
     private int height(Node node){
         if(node == null){
-            return 0;
+            return -1;
         }
         return node.height;
     }

@@ -14,15 +14,22 @@ public class TreeMain {
 //        bst.populate(data);
 //       bst.display();
 
-       //use to print tree int sorted manner
+//       use to print tree int sorted manner
 //        bst.inOrder();
 
 //        Test AVL
-        AVL avl = new AVL();
-        for (int i = 0; i < 1000; i++) {
-            avl.insert(i);
-        }
-        System.out.println(avl.height());
+//        AVL avl = new AVL();
+//        for (int i = 0; i < 1000; i++) {
+//            avl.insert(i);
+//        }
+//        System.out.println(avl.height());
+
+//        Segment Tree Use
+        int data[] = {1, 4, 5, 7, -4};
+        SegmentTrees st = new SegmentTrees(data);
+        st.update(0, 10);
+        st.display();
+        System.out.println(st.query(0, 2));
     }
 
 }
