@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //Max Heap
 public class Heap<T extends Comparable<T>> {
 
-    private ArrayList<T> list;
+    private final ArrayList<T> list;
 
     Heap(){
         list = new ArrayList<>();
@@ -44,7 +44,7 @@ public class Heap<T extends Comparable<T>> {
         if(list.get(index).compareTo(list.get(p))<0){
             swap(index, p);
             upHeap(p);
-        };
+        }
     }
 
     public T remove() throws Exception{
